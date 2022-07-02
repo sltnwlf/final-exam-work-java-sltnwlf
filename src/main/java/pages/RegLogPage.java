@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.LandingPage;
+import utils.Utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
