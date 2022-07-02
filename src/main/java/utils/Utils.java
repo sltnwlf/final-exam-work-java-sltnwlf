@@ -1,3 +1,5 @@
+package utils;
+
 import io.qameta.allure.Allure;
 import org.openqa.selenium.*;
 
