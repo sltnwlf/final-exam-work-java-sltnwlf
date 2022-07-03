@@ -14,8 +14,7 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
               hogy minden inputmezőt kitölt, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(3)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC03, Everything is filled test")
@@ -36,8 +35,7 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
            hogy a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(4)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC04, Description is empty test")
@@ -58,8 +56,7 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
       hogy az email és a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(5)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC05, Email and description are empty test")
@@ -80,8 +77,7 @@ public class RegistrationTests extends TestBase {
              Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
              hogy az email nem tartalmaz kukacot, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(6)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC06, Email without at test")
@@ -102,8 +98,7 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
             hogy az email nem tartalmaz pontot, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(7)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC07, Email without dot test")
@@ -124,8 +119,7 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
           hogy a jelszó inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(8)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC08, Password is empty test")
@@ -146,8 +140,7 @@ public class RegistrationTests extends TestBase {
              Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
         hogy a felhasználónév inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(9)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC09, Username is empty test")
@@ -168,8 +161,7 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
           hogy az összes inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(10)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC10, Everything is empty test")

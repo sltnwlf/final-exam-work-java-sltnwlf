@@ -16,8 +16,7 @@ public class DataDeleteTests extends TestBase {
         az aktuális cookie tartalom számát, kitörli az felhasználót, újra lementi az aktuális cookie tartalom számát,
                           majd összehasonlítja a két számot és ha nem egyeznek a teszt sikeres.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(32)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data delete tests")
     @DisplayName("TC32, Delete account test")

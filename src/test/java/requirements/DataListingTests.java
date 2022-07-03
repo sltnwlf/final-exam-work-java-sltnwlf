@@ -18,8 +18,7 @@ public class DataListingTests extends TestBase {
                       ráklikkel a blogra, az első oldalon kiszedi egy tömbbe az összes bejegyzés címét,
                                   és ezt a tömböt hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(18)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data listing tests")
     @DisplayName("TC18, Listing on first blog page test")

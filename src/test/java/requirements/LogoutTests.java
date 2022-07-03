@@ -16,8 +16,7 @@ public class LogoutTests extends TestBase {
      ismét bejelentkezik az előzőleg beregisztrált felhasználóval, majd újra rányom a kijelentkezésre és ellenőrzi,
      hogy a bejelentkező ablak újra megjelent-e.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(16)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Logout tests")
     @DisplayName("TC16, Double logout on different tabs with logout button test")

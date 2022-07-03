@@ -15,8 +15,7 @@ public class DataSavingTests extends TestBase {
        ráklikkel a blogra, az összes oldalon végiglapoz, kiszedi egy tömbbe az összes bejegyzés címét, ezeket beteszi
      egy újonnan létrehozott fájlba, majd az ebből a fájlből kiolvasott sorokat hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(30)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data saving tests")
     @DisplayName("TC30, Saving article titles into file test")

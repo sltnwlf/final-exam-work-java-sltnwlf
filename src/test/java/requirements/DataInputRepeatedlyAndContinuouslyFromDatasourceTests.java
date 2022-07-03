@@ -18,8 +18,7 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
                        amihez egy előre elkészített fájlból olvassa be az adatokat, majd ellenőrzi,
               hogy megfelelő-e a cookie-k száma. 1 adatvédelmi nyilatkozat + az 5 regisztrált felhasználó.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(28)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data input repeatedly and continuously from datasource tests")
     @DisplayName("TC28, Data input on registration repeatedly and continuously from datasource test")
@@ -38,8 +37,7 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
               majd ki is jelentkezik mindegyikkel, amihez két előre elkészített fájlból olvassa be az adatokat.
         Eztuán ellenőrzi az egyik előzőleg beregisztrált felhasználóval továbbra is rendben be tudunk-e jelentkezni.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(29)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data input repeatedly and continuously from datasource tests")
     @DisplayName("TC29, Data input on login repeatedly and continuously from datasource test")

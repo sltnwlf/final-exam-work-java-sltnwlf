@@ -20,8 +20,7 @@ public class DataModifyingTests extends TestBase {
          elmenit az új profilt, újra lementi az aktuális cookie tartalom számát, majd összehasonlítja a két számot
                                           és ha nem egyeznek a teszt sikeres.
      ******************************************************************************************************************/
-    @RepeatedTest(2)
-    @Order(31)
+    @RepeatedTest(3)
     @Epic("Portio")
     @Story("Data modifying tests")
     @DisplayName("TC31, Modifying on profile test")
