@@ -33,9 +33,9 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
     }
 
     /*******************************************************************************************************************
-            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál 5 felhasználót, és be is jelentkezik,
-              majd ki is jelentkezik mindegyikkel, amihez két előre elkészített fájlból olvassa be az adatokat.
-        Eztuán ellenőrzi az egyik előzőleg beregisztrált felhasználóval továbbra is rendben be tudunk-e jelentkezni.
+        Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál 5 felhasználót, és be is jelentkezik velük,
+             majd ki is jelentkezik mindegyikkel, amihez két előre elkészített fájlból olvassa be az adatokat.
+     Eztuán ellenőrzi az egyik előzőleg beregisztrált felhasználóval, hogy  továbbra is rendben be tudunk-e jelentkezni.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
