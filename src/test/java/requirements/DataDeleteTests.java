@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class DataDeleteTests extends TestBase {
 
@@ -18,7 +16,8 @@ public class DataDeleteTests extends TestBase {
         az aktuális cookie tartalom számát, kitörli az felhasználót, újra lementi az aktuális cookie tartalom számát,
                           majd összehasonlítja a két számot és ha nem egyeznek a teszt sikeres.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(32)
     @Epic("Portio")
     @Story("Data delete tests")
     @DisplayName("TC32, Delete account test")

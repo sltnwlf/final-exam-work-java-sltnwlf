@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class RegistrationTests extends TestBase {
 
@@ -16,7 +14,8 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
               hogy minden inputmezőt kitölt, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(3)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC03, Everything is filled test")
@@ -37,7 +36,8 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
            hogy a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(4)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC04, Description is empty test")
@@ -58,7 +58,8 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
       hogy az email és a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(5)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC05, Email and description are empty test")
@@ -79,7 +80,8 @@ public class RegistrationTests extends TestBase {
              Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
              hogy az email nem tartalmaz kukacot, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(6)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC06, Email without at test")
@@ -100,7 +102,8 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
             hogy az email nem tartalmaz pontot, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(7)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC07, Email without dot test")
@@ -121,7 +124,8 @@ public class RegistrationTests extends TestBase {
            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
           hogy a jelszó inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(8)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC08, Password is empty test")
@@ -142,7 +146,8 @@ public class RegistrationTests extends TestBase {
              Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
         hogy a felhasználónév inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(9)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC09, Username is empty test")
@@ -163,7 +168,8 @@ public class RegistrationTests extends TestBase {
             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
           hogy az összes inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(10)
     @Epic("Portio")
     @Story("Registration tests")
     @DisplayName("TC10, Everything is empty test")

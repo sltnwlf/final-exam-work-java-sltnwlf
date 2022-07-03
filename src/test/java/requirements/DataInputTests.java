@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class DataInputTests extends TestBase {
 
@@ -18,7 +16,8 @@ public class DataInputTests extends TestBase {
                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(19)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC19, Everything is filled test")
@@ -49,7 +48,8 @@ public class DataInputTests extends TestBase {
                             rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                               hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(20)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC20, Message is empty test")
@@ -80,7 +80,8 @@ public class DataInputTests extends TestBase {
                              rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(21)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC21, Checkbox is empty test")
@@ -110,7 +111,8 @@ public class DataInputTests extends TestBase {
                             rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(22)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC22, Email is empty test")
@@ -141,7 +143,8 @@ public class DataInputTests extends TestBase {
                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(23)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC23, Email without at test")
@@ -172,7 +175,8 @@ public class DataInputTests extends TestBase {
                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(24)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC24, Email, nothing after at test")
@@ -205,7 +209,8 @@ public class DataInputTests extends TestBase {
                               hogy, azon kívül, hogy helyesen nem küldené el az üzenetet,
                               a figyelmeztető üzenet az input mezőnél eltér az elvárttól.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(25)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC25, Email, nothing before at test")
@@ -236,7 +241,8 @@ public class DataInputTests extends TestBase {
                             rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(26)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC26, Email without dot test")
@@ -270,7 +276,8 @@ public class DataInputTests extends TestBase {
                         rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
                            hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(27)
     @Epic("Portio")
     @Story("Data input tests")
     @DisplayName("TC27, Name is empty test")

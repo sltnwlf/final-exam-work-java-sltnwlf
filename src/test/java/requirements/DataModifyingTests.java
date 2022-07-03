@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.Cookie;
 
 import java.util.Set;
@@ -22,7 +20,8 @@ public class DataModifyingTests extends TestBase {
          elmenit az új profilt, újra lementi az aktuális cookie tartalom számát, majd összehasonlítja a két számot
                                           és ha nem egyeznek a teszt sikeres.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(31)
     @Epic("Portio")
     @Story("Data modifying tests")
     @DisplayName("TC31, Modifying on profile test")

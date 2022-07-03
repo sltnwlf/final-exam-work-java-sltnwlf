@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class PaginationTests extends TestBase {
 
@@ -16,7 +14,8 @@ public class PaginationTests extends TestBase {
          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
         ráklikkel a blogra, végiglapozza az össze oldalt, közben megszámolja, hogy mennyi van a blogbejegyzésekből.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(17)
     @Epic("Portio")
     @Story("Pagination tests")
     @DisplayName("TC17, Pagination on blog page test")

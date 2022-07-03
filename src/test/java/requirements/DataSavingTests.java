@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class DataSavingTests extends TestBase {
 
@@ -17,7 +15,8 @@ public class DataSavingTests extends TestBase {
        ráklikkel a blogra, az összes oldalon végiglapoz, kiszedi egy tömbbe az összes bejegyzés címét, ezeket beteszi
      egy újonnan létrehozott fájlba, majd az ebből a fájlből kiolvasott sorokat hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(30)
     @Epic("Portio")
     @Story("Data saving tests")
     @DisplayName("TC30, Saving article titles into file test")

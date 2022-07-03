@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.Cookie;
 
 import java.util.Set;
@@ -20,7 +18,8 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
                        amihez egy előre elkészített fájlból olvassa be az adatokat, majd ellenőrzi,
               hogy megfelelő-e a cookie-k száma. 1 adatvédelmi nyilatkozat + az 5 regisztrált felhasználó.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(28)
     @Epic("Portio")
     @Story("Data input repeatedly and continuously from datasource tests")
     @DisplayName("TC28, Data input on registration repeatedly and continuously from datasource test")
@@ -39,7 +38,8 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
               majd ki is jelentkezik mindegyikkel, amihez két előre elkészített fájlból olvassa be az adatokat.
         Eztuán ellenőrzi az egyik előzőleg beregisztrált felhasználóval továbbra is rendben be tudunk-e jelentkezni.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(29)
     @Epic("Portio")
     @Story("Data input repeatedly and continuously from datasource tests")
     @DisplayName("TC29, Data input on login repeatedly and continuously from datasource test")

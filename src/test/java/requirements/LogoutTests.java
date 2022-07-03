@@ -6,9 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class LogoutTests extends TestBase {
 
@@ -18,7 +16,8 @@ public class LogoutTests extends TestBase {
      ismét bejelentkezik az előzőleg beregisztrált felhasználóval, majd újra rányom a kijelentkezésre és ellenőrzi,
      hogy a bejelentkező ablak újra megjelent-e.
      ******************************************************************************************************************/
-    @Test
+    @RepeatedTest(2)
+    @Order(16)
     @Epic("Portio")
     @Story("Logout tests")
     @DisplayName("TC16, Double logout on different tabs with logout button test")

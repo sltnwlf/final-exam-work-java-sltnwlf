@@ -8,6 +8,7 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.RepeatedTest;
 
 public class DataListingTests extends TestBase {
@@ -17,7 +18,8 @@ public class DataListingTests extends TestBase {
                       ráklikkel a blogra, az első oldalon kiszedi egy tömbbe az összes bejegyzés címét,
                                   és ezt a tömböt hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/
-    @RepeatedTest(1)
+    @RepeatedTest(2)
+    @Order(18)
     @Epic("Portio")
     @Story("Data listing tests")
     @DisplayName("TC18, Listing on first blog page test")
