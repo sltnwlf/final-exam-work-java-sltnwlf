@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sat Jul 02 13:08:46 GMT 2022","Sat Jul 02 13:08:47 GMT 2022","213","","requirements.TermsAndConditionsTests","","requirements.TermsAndConditionsTests","testTermsAndConditionsAccept","TC01, Accept test",""
-"broken","Sat Jul 02 13:08:46 GMT 2022","Sat Jul 02 13:08:46 GMT 2022","790","","requirements.TermsAndConditionsTests","","requirements.TermsAndConditionsTests","testTermsAndConditionsClose","TC02, Close test",""

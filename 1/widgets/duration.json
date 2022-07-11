@@ -1,1 +1,0 @@
-[{"uid":"4028b16150470817","name":"TC01, Accept test","time":{"start":1656767326908,"stop":1656767327121,"duration":213},"status":"broken","severity":"critical"},{"uid":"573e3b941ce678f5","name":"TC02, Close test","time":{"start":1656767326041,"stop":1656767326831,"duration":790},"status":"broken","severity":"critical"}]
