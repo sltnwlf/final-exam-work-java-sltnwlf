@@ -16,9 +16,9 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 
 ## Technológiák:
 
-Programnyelv: ```Java```
-Teszteszköz: ```Selenium```
-Tesztkeretrendszer: ```JUnit 5```
+- Programnyelv: ```Java```
+- Teszteszköz: ```Selenium```
+- Tesztkeretrendszer: ```JUnit 5```
 
 
 ## Lefedett követelmények:
