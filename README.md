@@ -43,15 +43,11 @@ Tesztkeretrendszer: ```JUnit 5```
 - Miután megnyitottuk a projektet az src/test/java/requirements mappastruktúrán végighaladva találjuk meg a java teszt fájlokat.
 - Kattintsunk duplán az általunk kiválasztott java teszt fájlra.
 - A tesztektől balra található számozott sávban, a zöld hárömszögekre kattintva futtathatjuk a teszteket:
- 
- 
- 
+
 ![szemléltetés](https://user-images.githubusercontent.com/70565508/177026286-14c756fd-93e0-4b29-8189-adcf529a3101.jpg)
- 
- 
- 
+
 ## Kapcsolat:
  
-- Farkas Zoltán 
+Farkas Zoltán
 - [LinkedIn](https://www.linkedin.com/in/zolt%C3%A1n-farkas-862b57215/)
 - farkas.zoli.90@gmail.com
