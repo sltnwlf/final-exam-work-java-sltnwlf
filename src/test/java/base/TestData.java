@@ -4,7 +4,7 @@ package base;
     Külön osztály az összes, a tesztekben felhasznált tesztadat tárolására, a static kulcsszó segítségével pedig
   meghívhatóak az osztály, változókba mentett tesztadatai az egyes tesztosztályokban a class-ra való hivatkozással.
  ******************************************************************************************************************/
-public class TestData {
+public abstract class TestData {
 
     /*******************************************************************************************************************
                                  Tesztadatok a regisztrációhoz és a bejelentkezéshez.

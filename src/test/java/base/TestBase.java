@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /***********************************************************************************************************************
                                           Minden teszt keretét megadó class.
  **********************************************************************************************************************/
-public class TestBase {
+public abstract class TestBase {
 
     /*******************************************************************************************************************
                Az extends kulcsszó hazsnálatával az itt létrehozott driver átörökíthető a tesztosztályokba,
