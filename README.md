@@ -1,4 +1,4 @@
-# Rövid összefoglaló a Codecool, Junior Automata Tesztelő képzés záróprojektjeként elkészült vizsgaremekhez
+# Rövid összefoglaló a Junior Automata Tesztelő képzés záróprojektjeként elkészült vizsgaremekhez
 
 
 ## A projektmunka célja:
