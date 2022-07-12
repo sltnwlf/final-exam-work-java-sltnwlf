@@ -10,8 +10,8 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 
 - [Portio weboldal](https://lennertamas.github.io/portio/)
 - [GitHub repó](https://github.com/sltnwlf/final-exam-work-java-sltnwlf)
-- [Tesztmenedzser fájl](https://docs.google.com/spreadsheets/d/1WtmtIIeiKt6JyAhC4ozFHMczu5a7kk5kagEljPkhrGE/edit#gid=643744181)
-- [Összefoglaló tesztjelentés (Allure report)](https://sltnwlf.github.io/final-exam-work-java-sltnwlf/16/)
+- [Tesztmenedzser](https://docs.google.com/spreadsheets/d/1WtmtIIeiKt6JyAhC4ozFHMczu5a7kk5kagEljPkhrGE/edit#gid=643744181)
+- [Összefoglaló tesztjelentés](https://sltnwlf.github.io/final-exam-work-java-sltnwlf/16/)
 - [Prezentáció](https://docs.google.com/presentation/d/1SGrcq7jFfClecx5MQn39Oktrw2ZOrCcs8iyHmCL9esU/edit#slide=id.p)
 
 
