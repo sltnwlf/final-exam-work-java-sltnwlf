@@ -21,6 +21,7 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 - Teszteszköz: ```Selenium```
 - Tesztkeretrendszer: ```JUnit 5```
 - Tesztjelentés: ```Allure Framework```
+- Böngésző: ```Google Chrome```
 - Tesztmenedzser: ```Google docs```
 - Prezentáció: ```Google slides```
 
