@@ -45,7 +45,7 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 - Kattintsunk duplán az általunk kiválasztott java teszt fájlra.
 - A tesztektől balra található számozott sávban, a zöld hárömszögekre kattintva futtathatjuk a teszteket:
 
-![szemléltetés](https://user-images.githubusercontent.com/70565508/177026286-14c756fd-93e0-4b29-8189-adcf529a3101.jpg)
+![tesztfuttatás szemléltetés](https://user-images.githubusercontent.com/70565508/178505873-91f1a4f7-13bf-4c97-8ed9-9f88089e41df.jpg)
 
 ## Kapcsolat:
  
