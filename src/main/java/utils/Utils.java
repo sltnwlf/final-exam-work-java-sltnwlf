@@ -61,7 +61,8 @@ public class Utils {
                                Egyszerű screenshot készítő metódus az allure report-hoz.
      ******************************************************************************************************************/
     public void makeScreenshot() {
-        Allure.addAttachment("Screenshot of Tested Page", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("Screenshot of Tested Page", new ByteArrayInputStream(((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.BYTES)));
     }
 
     /*******************************************************************************************************************

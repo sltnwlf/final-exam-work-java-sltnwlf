@@ -13,7 +13,6 @@ public abstract class TestData {
     public final static String regLogUsernameFromFile = "Felhasznalonev03";
     public final static String regLogPassword = "Jelszo01";
     public final static String regLogPasswordFromFile = "Jelszo03";
-
     public final static String regLogDescription = "Egy rovid leiras.";
 
     /*******************************************************************************************************************
