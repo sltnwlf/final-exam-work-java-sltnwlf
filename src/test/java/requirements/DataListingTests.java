@@ -15,8 +15,8 @@ public class DataListingTests extends TestBase {
 
     /*******************************************************************************************************************
           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-                      ráklikkel a blogra, az első oldalon kiszedi egy tömbbe az összes bejegyzés címét,
-                                  és ezt a tömböt hasonlítja össze egy elvárt eredménnyel.
+                     ráklikkel a blogra, az első oldalon kiszedi egy tömbbe az összes bejegyzés címét,
+                                és ezt a tömböt hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

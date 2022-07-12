@@ -11,7 +11,7 @@ import org.junit.jupiter.api.*;
 public class DataSavingTests extends TestBase {
 
     /*******************************************************************************************************************
-         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
        ráklikkel a blogra, az összes oldalon végiglapoz, kiszedi egy tömbbe az összes bejegyzés címét, ezeket beteszi
      egy újonnan létrehozott fájlba, majd az ebből a fájlből kiolvasott sorokat hasonlítja össze egy elvárt eredménnyel.
      ******************************************************************************************************************/

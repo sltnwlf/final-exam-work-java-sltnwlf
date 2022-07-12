@@ -16,7 +16,7 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
     /*******************************************************************************************************************
                       Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál 5 felhasználót,
                        amihez egy előre elkészített fájlból olvassa be az adatokat, majd ellenőrzi,
-              hogy megfelelő-e a cookie-k száma. 1 adatvédelmi nyilatkozat + az 5 regisztrált felhasználó.
+               hogy megfelelő-e a cookie-k száma. 1 adatvédelmi nyilatkozat + az 5 regisztrált felhasználó.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -33,7 +33,7 @@ public class DataInputRepeatedlyAndContinuouslyFromDatasourceTests extends TestB
     }
 
     /*******************************************************************************************************************
-        Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál 5 felhasználót, és be is jelentkezik velük,
+         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál 5 felhasználót, és be is jelentkezik velük,
              majd ki is jelentkezik mindegyikkel, amihez két előre elkészített fájlból olvassa be az adatokat.
      Eztuán ellenőrzi az egyik előzőleg beregisztrált felhasználóval, hogy  továbbra is rendben be tudunk-e jelentkezni.
      ******************************************************************************************************************/

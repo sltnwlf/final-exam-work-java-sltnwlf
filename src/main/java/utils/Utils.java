@@ -12,7 +12,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /***********************************************************************************************************************
-                                Általános felhasználásra készített metódusok osztálya.
+                             Általános felhasználásra készített metódusok osztálya.
  **********************************************************************************************************************/
 public class Utils {
 
@@ -23,42 +23,42 @@ public class Utils {
     }
 
     /*******************************************************************************************************************
-                                  Egyszerű navigációs metódus a tesztelendő oldalra.
+                                         Navigációs metódus a tesztelendő oldalra.
      ******************************************************************************************************************/
     public void navigateToPortio() {
         driver.get("https://lennertamas.github.io/portio/");
     }
 
     /*******************************************************************************************************************
-                                          Egyszerű, oldal frissítés metódus.
+                                                 Oldalt frissítő metódus.
      ******************************************************************************************************************/
     public void refresh() {
         driver.navigate().refresh();
     }
 
     /*******************************************************************************************************************
-                                      Egyszerű, Thread.sleep várakoztató metódus.
+                                      Paraméterezett Thread.sleep várakoztató metódus.
      ******************************************************************************************************************/
     public void sleep(int timeInMillis) throws InterruptedException {
         Thread.sleep(timeInMillis);
     }
 
     /*******************************************************************************************************************
-                                     Egyszerű, implicitlyWait várakoztató metódus.
+                                     Paraméterezett implicitlyWait várakoztató metódus.
      ******************************************************************************************************************/
     public void implicitlyWait(int timeInSeconds) {
         driver.manage().timeouts().implicitlyWait(timeInSeconds,TimeUnit.SECONDS);
     }
 
     /*******************************************************************************************************************
-                                      Egyszerű, cookie álományt visszaadó metódus.
+                                           Cookie álományt visszaadó metódus.
      ******************************************************************************************************************/
     public Set<Cookie> getCookies() {
         return driver.manage().getCookies();
     }
 
     /*******************************************************************************************************************
-                               Egyszerű screenshot készítő metódus az allure report-hoz.
+                                    Screenshot készítő metódus az Allure report-hoz.
      ******************************************************************************************************************/
     public void makeScreenshot() {
         Allure.addAttachment("Screenshot of Tested Page", new ByteArrayInputStream(((TakesScreenshot) driver).
@@ -66,7 +66,7 @@ public class Utils {
     }
 
     /*******************************************************************************************************************
-                            A JavascriptExecutor segítségével új tabot megnyitó metódus.
+                              A JavascriptExecutor segítségével új tabot megnyitó metódus.
      ******************************************************************************************************************/
     public void createNewTab() {
         ((JavascriptExecutor) driver).executeScript("window.open()");
@@ -75,7 +75,7 @@ public class Utils {
     }
 
     /*******************************************************************************************************************
-                  A JavascriptExecutor segítségével a paraméterben megadott pixelnyit görgető metódus.
+                   A JavascriptExecutor segítségével a paraméterben megadott pixelnyit görgető metódus.
      ******************************************************************************************************************/
     public void scrollOnPage(int pixels) {
         ((JavascriptExecutor)driver).executeScript("window.scrollBy(0,"+ pixels +")","");
@@ -93,11 +93,11 @@ public class Utils {
     }
 
     /*******************************************************************************************************************
-                  Fájlból olvasó metódus, aminek paraméterben átadjuk az olvasni kívánt fájl nevét,
-                     egy ArrayList-be mentjük a sorok listáját és soronként elkezdjük beolvasni.
-                          Amíg vannak sorok egyenként feltöltjük velük az ArrayList-ünket.
+                   Fájlból olvasó metódus, aminek paraméterben átadjuk az olvasni kívánt fájl nevét,
+                      egy ArrayList-be mentjük a sorok listáját és soronként elkezdjük beolvasni.
+                           Amíg vannak sorok egyenként feltöltjük velük az ArrayList-ünket.
        Ezután létrehozunk egy String[]-et, majd egy for ciklus segítségével, feltöltjük az ArrayList-ünk tartalmával.
-                                    Végül pedig vissza is adjuk a String[]-et.
+                                      Végül pedig vissza is adjuk a String[]-et.
      ******************************************************************************************************************/
     public String[] readFromFile(String fileName) {
         BufferedReader reader;

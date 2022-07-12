@@ -17,21 +17,21 @@ public class LandingPage {
     }
 
     /*******************************************************************************************************************
-                                  Egyszerű metódus, ami rákattint a profile gombra.
+                                       Metódus, ami rákattint a profile gombra.
      ******************************************************************************************************************/
     public void clickOnProfile() {
         driver.findElement(profile).click();
     }
 
     /*******************************************************************************************************************
-                                  Egyszerű metódus, ami rákattint a logout gombra.
+                                       Metódus, ami rákattint a logout gombra.
      ******************************************************************************************************************/
     public void clickOnLogout() {
         driver.findElement(logout).click();
     }
 
     /*******************************************************************************************************************
-                       Egyszerű metódus, ami odagörget a "Get in touch" gombhoz és is rákattint.
+                          Metódus, ami odagörget a "Get in touch" gombhoz és is rákattint.
      ******************************************************************************************************************/
     public void clickOnGetInTouch() {
         Utils u = new Utils(driver);
@@ -40,7 +40,7 @@ public class LandingPage {
     }
 
     /*******************************************************************************************************************
-                       Egyszerű metódus, ami odagörget a "See all post" gombhoz és is rákattint.
+                      Egyszerű metódus, ami odagörget a "See all post" gombhoz és is rákattint.
      ******************************************************************************************************************/
     public void clickOnSeeAllPost() {
         Utils u = new Utils(driver);

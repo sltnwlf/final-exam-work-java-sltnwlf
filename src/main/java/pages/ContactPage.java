@@ -20,21 +20,21 @@ public class ContactPage {
     }
 
     /*******************************************************************************************************************
-                                      Egyszerű metódus a name input feltöltésére.
+                                          Metódus a name input feltöltésére.
      ******************************************************************************************************************/
     public void fillName(String input) {
         driver.findElement(name).sendKeys(input);
     }
 
     /*******************************************************************************************************************
-                                      Egyszerű metódus az email input feltöltésére.
+                                         Metódus az email input feltöltésére.
      ******************************************************************************************************************/
     public void fillEmail(String input) {
         driver.findElement(email).sendKeys(input);
     }
 
     /*******************************************************************************************************************
-                                      Egyszerű metódus a message input feltöltésére.
+                                         Metódus a message input feltöltésére.
      ******************************************************************************************************************/
     public void fillMessage(String input) {
         driver.findElement(message).sendKeys(input);
@@ -50,22 +50,22 @@ public class ContactPage {
     }
 
     /*******************************************************************************************************************
-                                     Egyszerű metódus, ami kipipálja checkbox mezőt.
+                                         Metódus, ami kipipálja checkbox mezőt.
      ******************************************************************************************************************/
     public void clickOnCheckbox() {
         driver.findElement(checkbox).click();
     }
 
     /*******************************************************************************************************************
-                                     Egyszerű metódus, ami rákattint a küldés gombra.
+                                         Metódus, ami rákattint a küldés gombra.
      ******************************************************************************************************************/
     public void clickOnSend() {
         driver.findElement(send).click();
     }
 
     /*******************************************************************************************************************
-         Metódus, ami egy WebDriverWait segítségével 2 másodpercig várja a küldés gombra kattintás utáni üzenetet,
-                     és az annak megfelelő boolean értékkel tér vissza, hogy megjelenik-e vagy sem.
+                             Metódus, ami egy WebDriverWait segítségével 2 másodpercig várja,
+        hogy megjelenik-e a küldés gombra kattintás utáni üzenet, és az ennek megfelelő boolean értékkel tér vissza.
      ******************************************************************************************************************/
     public boolean isThereStatus() {
         try {

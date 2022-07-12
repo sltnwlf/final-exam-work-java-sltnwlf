@@ -13,8 +13,8 @@ public class DataInputTests extends TestBase {
     /*******************************************************************************************************************
          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
             rákattint a Get in touch gombra, kitölti a formot úgy, hogy minden inptumezőt kitölt a jó adatokkal,
-                          rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                             hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -76,7 +76,7 @@ public class DataInputTests extends TestBase {
           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
                       rákattint a Get in touch gombra, kitölti a formot,de checkboxra nem kattint rá,
                              rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                               hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -105,8 +105,8 @@ public class DataInputTests extends TestBase {
     /*******************************************************************************************************************
          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
               rákattint a Get in touch gombra, kitölti a formot úgy, hogy az email inptumezőt üresen hagyja,
-                            rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                               hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -134,10 +134,10 @@ public class DataInputTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
                   rákattint a Get in touch gombra, kitölti a formot úgy, hogy az email-ben nincs kukac,
-                          rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                             hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -167,8 +167,8 @@ public class DataInputTests extends TestBase {
     /*******************************************************************************************************************
          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
                rákattint a Get in touch gombra, kitölti a formot úgy, hogy az email kukac után nincs semmi,
-                          rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                             hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+                           rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                              hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -229,10 +229,10 @@ public class DataInputTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-                rákattint a Get in touch gombra, kitölti a formot úgy, hogy az email nem tartalmaz pontot,
-                            rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                               hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+                 rákattint a Get in touch gombra, kitölti a formot úgy, hogy az email nem tartalmaz pontot,
+                             rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -263,10 +263,10 @@ public class DataInputTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-               rákattint a Get in touch gombra, kitölti a formot úgy, hogy az név inptumezőt üresen hagyja,
-                        rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
-                           hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
+          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+                 rákattint a Get in touch gombra, kitölti a formot úgy, hogy az név inptumezőt üresen hagyja,
+                             rákattint a checkboxra, és az üzenet küldésére is majd ellenőrzi,
+                                hogy megjelent-e az üzenet elküldésével kapcsolatos üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

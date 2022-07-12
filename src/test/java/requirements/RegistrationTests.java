@@ -11,8 +11,8 @@ import org.junit.jupiter.api.*;
 public class RegistrationTests extends TestBase {
 
     /*******************************************************************************************************************
-           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
-              hogy minden inputmezőt kitölt, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
+            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+               hogy minden inputmezőt kitölt, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -32,7 +32,7 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
            hogy a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
@@ -53,7 +53,7 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
       hogy az email és a leírás inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
@@ -95,7 +95,7 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
             hogy az email nem tartalmaz pontot, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
@@ -116,8 +116,8 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
-          hogy a jelszó inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
+             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+           hogy a jelszó inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -137,7 +137,7 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+              Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
         hogy a felhasználónév inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
@@ -158,8 +158,8 @@ public class RegistrationTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-            Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
-          hogy az összes inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
+             Teszt, ami elfogadja az adatvédelmi nyilatkozatot, megkísérel beregisztrálni egy felhasználót úgy,
+           hogy az összes inputmezőt üresen hagyja, majd ellenőrzi, hogy megjelent-e a "User registered!" üzenet.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

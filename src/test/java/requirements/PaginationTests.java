@@ -11,8 +11,8 @@ import org.junit.jupiter.api.*;
 public class PaginationTests extends TestBase {
 
     /*******************************************************************************************************************
-         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-        ráklikkel a blogra, végiglapozza az össze oldalt, közben megszámolja, hogy mennyi van a blogbejegyzésekből.
+          Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+         ráklikkel a blogra, végiglapozza az össze oldalt, közben megszámolja, hogy mennyi van a blogbejegyzésekből.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

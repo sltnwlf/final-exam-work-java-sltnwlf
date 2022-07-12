@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.LandingPage;
 import utils.Utils;
 
 import java.io.BufferedReader;
@@ -37,14 +36,14 @@ public class RegLogPage {
     }
 
     /*******************************************************************************************************************
-                               Egyszerű metódus, ami elfogadja az adatvédelmi nyilatkozatot.
+                                 Metódus, ami elfogadja az adatvédelmi nyilatkozatot.
      ******************************************************************************************************************/
     public void clickOnTermsAndConditionsAccept() {
         driver.findElement(termsAndConditionsAccept).click();
     }
 
     /*******************************************************************************************************************
-                  Egyszerű metódus, ami elfogadás nélkül bezárja az adatvédelmi nyilatkozat popup ablakát.
+                      Metódus, ami elfogadás nélkül bezárja az adatvédelmi nyilatkozat popup ablakát.
      ******************************************************************************************************************/
     public void clickOnTermsAndConditionsClose() {
         driver.findElement(termsAndConditionsClose).click();
@@ -52,7 +51,7 @@ public class RegLogPage {
 
     /*******************************************************************************************************************
                      Metódus, ami ellenőrzi, hogy megjelent-e az adatvédelmi nyilatkozat popup ablaka
-                                   és az ennek megfelelő boolean értékkel tér vissza.
+                                    és az ennek megfelelő boolean értékkel tér vissza.
      ******************************************************************************************************************/
     public boolean isThereTermsAndConditionsPopup() {
         try {
@@ -82,8 +81,8 @@ public class RegLogPage {
     }
 
     /*******************************************************************************************************************
-                     Metódus, ami ellenőrzi, hogy megjelent-e a regisztrációval kapcsolatos üzenet,
-                                   és az ennek megfelelő boolean értékkel tér vissza.
+                       Metódus, ami ellenőrzi, hogy megjelent-e a regisztrációval kapcsolatos üzenet,
+                                  és az ennek megfelelő boolean értékkel tér vissza.
      ******************************************************************************************************************/
     public boolean isThereRegisterStatus() {
         try {
@@ -97,14 +96,14 @@ public class RegLogPage {
     }
 
     /*******************************************************************************************************************
-                   Egyszerű metódus, ami regisztrációval kapcsolatos üzenet String értékével tér vissza.
+                      Metódus, ami regisztrációval kapcsolatos üzenet String értékével tér vissza.
      ******************************************************************************************************************/
     public String getRegisterStatus() {
         return driver.findElement(registerStatus).getText();
     }
 
     /*******************************************************************************************************************
-                                    Egyszerű metódus, ami rákattint a login gombra.
+                                         Metódus, ami rákattint a login gombra.
      ******************************************************************************************************************/
     public void clickOnLogin() {
         driver.findElement(loginButton).click();
@@ -156,8 +155,8 @@ public class RegLogPage {
     }
 
     /*******************************************************************************************************************
-                          Metódus, ami ismételten és sorozatosan regisztrál felhasználókat,
-                                   egy külső adatforrásból beolvasott adatokkal.
+                           Metódus, ami ismételten és sorozatosan regisztrál felhasználókat,
+                                    egy külső adatforrásból beolvasott adatokkal.
                    Egy FileReader-nek átadjuk a beolvasni kívánt adatokat tartalmazó fájl nevét.
       Létrehozunk egy ArrayList-et, amibe egy while ciklus segítségével belerakjuk a megadott fájl tartalmát soronként.
                      Létrehozunk egy ArrayList-et, amit a regisztrációs inputokkal töltünk fel.
@@ -200,20 +199,20 @@ public class RegLogPage {
 
     /*******************************************************************************************************************
                  Metódus, ami ismételten és sorozatosan regisztrál, majd bejelentkeztet felhasználókat,
-                                   két külön adatforrásból beolvasott adatokkal.
+                                    két külön adatforrásból beolvasott adatokkal.
                      Egy FileReader-nek átadjuk a beolvasni kívánt adatokat tartalmazó fájl nevét.
       Létrehozunk egy ArrayList-et, amibe egy while ciklus segítségével belerakjuk a megadott fájl tartalmát soronként.
                        Létrehozunk egy ArrayList-et, amit a regisztrációs inputokkal töltünk fel.
            Egy újabb while ciklus segítségével, amíg nem érjük el az ArrayList-ben található String sorok számát,
               egy for ciklus segítségével újra és újra végigiterálunk az inputokon és minden inputnak átadjuk
              a megfelelő sort tartalmazó Stringet, majd rákattintunk a regisztrációra és frissítjük az oldalt.
-                                      Miután beregisztráltuk a felhasználókat,
-                   egy FileReader-nek átadjuk a beolvasni kívánt adatokat tartalmazó fájl nevét.
+                                       Miután beregisztráltuk a felhasználókat,
+                      egy FileReader-nek átadjuk a beolvasni kívánt adatokat tartalmazó fájl nevét.
       Létrehozunk egy ArrayList-et, amibe egy while ciklus segítségével belerakjuk a megadott fájl tartalmát soronként.
-                     Létrehozunk egy ArrayList-et, amit a bejelentkező inputokkal töltünk fel.
-          Egy újabb while ciklus segítségével, amíg nem érjük el az ArrayList-ben található String sorok számát,
+                        Létrehozunk egy ArrayList-et, amit a bejelentkező inputokkal töltünk fel.
+           Egy újabb while ciklus segítségével, amíg nem érjük el az ArrayList-ben található String sorok számát,
              egy for ciklus segítségével újra és újra végigiterálunk az inputokon és minden inputnak átadjuk
-        a megfelelő sort tartalmazó Stringet, rákattintunk a login-ra, majd a logout-ra is és frissítjük az oldalt.
+         a megfelelő sort tartalmazó Stringet, rákattintunk a login-ra, majd a logout-ra is és frissítjük az oldalt.
      ******************************************************************************************************************/
     public void regLogRepeatedlyAndContinuouslyFromDatasource() {
         Utils u = new Utils(driver);

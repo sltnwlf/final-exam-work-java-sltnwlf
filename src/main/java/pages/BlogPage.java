@@ -25,8 +25,8 @@ public class BlogPage {
 
 
     /*******************************************************************************************************************
-                           Egyszerű metódus az adott oldalon található cikkek megszámolására.
-                      Egy listába tesszük a fellelhető cikkeket, majd visszaadjuk a lista hosszát.
+                               Metódus, az adott oldalon található cikkek megszámolására.
+                       Egy listába tesszük a fellelhető cikkeket, majd visszaadjuk a lista hosszát.
      ******************************************************************************************************************/
     public int numberOfArticles() {
         List<WebElement> articleList = driver.findElements(articles);
@@ -34,9 +34,9 @@ public class BlogPage {
     }
 
     /*******************************************************************************************************************
-                         Metódus a következő oldalra léptető gomb láthatóságának ellenőrzésére.
+                          Metódus, a következő oldalra léptető gomb láthatóságának ellenőrzésére.
          Egy WebDriverWait-tel 5 másodpercig várakozunk arra, hogy látható-e az adott oldalon léptető gomb vagy sem,
-                                 és az ennek megfelelő boolean értékkel térünk vissza.
+                                  és az ennek megfelelő boolean értékkel térünk vissza.
      ******************************************************************************************************************/
     public boolean isThereButtonNext() {
         try {
@@ -79,7 +79,7 @@ public class BlogPage {
                               Létrehozunk egy számlálot, ami kezdeti értékének nullát adunk.
                            Egy while ciklus segítségével, addig lépkedünk tovább az oldalakon,
                                    amíg megtaláljuk a következő oldalra léptető gombot,
-         eközben pedog minden oldalon hozzáadjuk a számlálóhoz az éppen aktuális oldalon található cikkek számát.
+          eközben pedig minden oldalon hozzáadjuk a számlálóhoz az éppen aktuális oldalon található cikkek számát.
      ******************************************************************************************************************/
     public int articleCounter() {
         int actual = 0;
@@ -95,7 +95,7 @@ public class BlogPage {
     }
 
     /*******************************************************************************************************************
-                    Metódus, ami a blog oldalakon található összes cikk címét egy listába rendezi.
+                      Metódus, ami a blog oldalakon található összes cikk címét egy listába rendezi.
       Létrehozunk egy WebElement-ekből álló listát inicializálatlanul, és egy String-eket tartalmazó új ArrayListet is.
            Egy while ciklus segítségével, minden iterációban megkeressük, az adott oldalon található cikkek linkjét.
            Ezen belül pedig egy for ciklus segítségével végigiterálunk az összes aktuális oldalon található linken,
@@ -123,7 +123,7 @@ public class BlogPage {
                Metódus, ami a blog oldalakon található összes cikk címét egy txt kiterjesztésű fájlba rendezi.
            Létrehozunk egy új FileWriter-t aminek paraméterként átadjuk az általunk kiválasztott leendő fájl nevét.
                A listArticleTitlesOnAllPage() metódusommal, megkapjuk a címeket tartalmazó String ArrayList-et.
-                        Egy while ciklus segítségével, az új fájlban minden címet új sorba írunk.
+                          Egy while ciklus segítségével, az új fájlban minden címet új sorba írunk.
      ******************************************************************************************************************/
     public void saveArticleTitlesIntoFile() {
         try {

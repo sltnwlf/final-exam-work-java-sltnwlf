@@ -13,7 +13,7 @@ public class LoginTests extends TestBase {
     /*******************************************************************************************************************
                    Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót úgy,
                   hogy minden inputmezőt kitölt, majd be is jelentkezik ezekkel az adatokkal és ellenőrzi,
-                                          hogy a bejelentkező ablak eltűnt-e.
+                                           hogy a bejelentkező ablak eltűnt-e.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")
@@ -103,9 +103,9 @@ public class LoginTests extends TestBase {
     }
 
     /*******************************************************************************************************************
-               Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót úgy,
-             hogy a felhasználónév inputmezőt üresen hagyja, majd megkísérel bejelentkezni és ellenőrzi,
-                                  hogy a bejelentkező ablak a helyén marad-e.
+                  Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót úgy,
+               hogy a felhasználónév inputmezőt üresen hagyja, majd megkísérel bejelentkezni és ellenőrzi,
+                                    hogy a bejelentkező ablak a helyén marad-e.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

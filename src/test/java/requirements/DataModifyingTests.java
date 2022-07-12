@@ -17,7 +17,7 @@ public class DataModifyingTests extends TestBase {
           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
      ráklikkel a profile gombra, kitölti a formot a megfelelő adatokkal, elmenti a profilt, továbbá egy változóba menti
               az aktuális cookie tartalom számát, törli az input mezőket, más adatokkal újra kitölti a formot,
-         elmenit az új profilt, újra lementi az aktuális cookie tartalom számát, majd összehasonlítja a két számot
+          elmenit az új profilt, újra lementi az aktuális cookie tartalom számát, majd összehasonlítja a két számot
                                           és ha nem egyeznek a teszt sikeres.
      ******************************************************************************************************************/
     @RepeatedTest(3)

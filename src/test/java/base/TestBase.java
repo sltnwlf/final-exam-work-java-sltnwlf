@@ -18,8 +18,8 @@ public abstract class TestBase {
 
     /*******************************************************************************************************************
                Az extends kulcsszó hazsnálatával az itt létrehozott driver átörökíthető a tesztosztályokba,
-                                  így nem kell majd azokban is külön létrehozni.
-                     Az egyes oldalakat inicializálás nélkül osztály szintű változókba mentem.
+                                    így nem kell majd azokban is külön létrehozni.
+                       Az egyes oldalakat inicializálás nélkül osztály szintű változókba mentem.
      ******************************************************************************************************************/
     protected WebDriver driver;
     protected BlogPage blog;
@@ -30,19 +30,16 @@ public abstract class TestBase {
     protected Utils utils;
 
     /*******************************************************************************************************************
-                       A @BeforeEach annotációnak köszönhetően, minden egyes teszt előtt lefut.
+                        A @BeforeEach annotációnak köszönhetően, minden egyes teszt előtt lefut.
           Létrehozzuk a WebDriverManager-t, ami lehetővé teszi a WebDriver beállítását tényleges letöltés nélkül.
-                  Példányosítunk egy új ChromeOptions-t, amivel további beállításokat eszközölhetünk.
-                   A létrehozott ChromeOptions-höz egyenként hozzáadjuk az általunk kívánt opciókat.
-                               Például, hogy mindig inkognitó módban induljon a teszt.
-                            A driver inicializálásakor, példányosítunk egy ChromeDriver-t.
-                              Paraméterként átadjuk neki a fentebb kiválasztott opciókat.
-                                          A tesztelendő oldalra navigálunk.
-                  Várakoztatunk 10 másodpercet, hogy az oldal biztosan betöltsön, mielőtt továbblépnénk.
-                                            Maximáljuk az ablak méretét.
-        Az egyes oldalakhoz tartozó változókat úgy inicializálom, hogy az adott oldal egy új példányát adják vissza,
-               ezzel a tesztekben elég lesz a változókra hivatkozni és úgy meghívni az adott oldal metódusait,
-                             tehát külön már nem kell majd példányosítanom az oldalakat.
+                   Példányosítunk egy új ChromeOptions-t, amivel további beállításokat eszközölhetünk.
+                    A létrehozott ChromeOptions-höz egyenként hozzáadjuk az általunk kívánt opciókat.
+                             A driver inicializálásakor, példányosítunk egy ChromeDriver-t.
+             Paraméterként átadjuk neki a fentebb kiválasztott opciókat. A tesztelendő oldalra navigálunk.
+     Várakoztatunk 10 másodpercet, hogy az oldal biztosan betöltsön, mielőtt továbblépnénk. Maximáljuk az ablak méretét.
+         Az egyes oldalakhoz tartozó változókat úgy inicializálom, hogy az adott oldal egy új példányát adják vissza,
+                ezzel a tesztekben elég lesz a változókra hivatkozni és úgy meghívni az adott oldal metódusait,
+                               tehát külön már nem kell majd példányosítanom az oldalakat.
      ******************************************************************************************************************/
     @BeforeEach
     public void setup(){
@@ -69,9 +66,9 @@ public abstract class TestBase {
     }
 
     /*******************************************************************************************************************
-                      Az @AfterEach annotációnak köszönhetően, minden egyes teszt után lefut.
-                    A deleteAllCookies() töröl minden, a teszt során létrehozott tárolt adatot.
-                          A quit() bezárja az összes, a teszt során megnyitott ablakot.
+                        Az @AfterEach annotációnak köszönhetően, minden egyes teszt után lefut.
+                      A deleteAllCookies() töröl minden, a teszt során létrehozott tárolt adatot.
+                            A quit() bezárja az összes, a teszt során megnyitott ablakot.
      ******************************************************************************************************************/
     @AfterEach
     public void dispose(){

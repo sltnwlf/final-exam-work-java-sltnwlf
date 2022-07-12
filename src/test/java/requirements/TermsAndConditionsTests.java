@@ -12,7 +12,7 @@ public class TermsAndConditionsTests extends TestBase {
 
     /*******************************************************************************************************************
           Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-                         majd ellenőrzi, hogy az adatvédelmi nyilatkozat ablaka megjelent-e újra.
+                          majd ellenőrzi, hogy az adatvédelmi nyilatkozat ablaka megjelent-e újra.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

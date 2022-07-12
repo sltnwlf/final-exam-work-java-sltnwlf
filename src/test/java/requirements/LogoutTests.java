@@ -11,10 +11,10 @@ import org.junit.jupiter.api.*;
 public class LogoutTests extends TestBase {
 
     /*******************************************************************************************************************
-     Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
-     ráklikkel a kijelentkezés gombra, ellenőrzi, hogy újra megejelent-e a bejelentkező ablak, nyit egy új tabot,
-     ismét bejelentkezik az előzőleg beregisztrált felhasználóval, majd újra rányom a kijelentkezésre és ellenőrzi,
-     hogy a bejelentkező ablak újra megjelent-e.
+         Teszt, ami elfogadja az adatvédelmi nyilatkozatot, beregisztrál egy felhasználót, be is jelentkezik vele,
+        ráklikkel a kijelentkezés gombra, ellenőrzi, hogy újra megejelent-e a bejelentkező ablak, nyit egy új tabot,
+       ismét bejelentkezik az előzőleg beregisztrált felhasználóval, majd újra rányom a kijelentkezésre és ellenőrzi,
+                                       hogy a bejelentkező ablak újra megjelent-e.
      ******************************************************************************************************************/
     @RepeatedTest(3)
     @Epic("Portio")

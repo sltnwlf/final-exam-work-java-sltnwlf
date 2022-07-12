@@ -18,49 +18,49 @@ public class ProfilePage {
     }
 
     /*******************************************************************************************************************
-                                   Egyszerű metódus, ami feltölti a name inputot.
+                                       Metódus, ami feltölti a name inputot.
      ******************************************************************************************************************/
     public void fillName(String name) {
         driver.findElement(this.name).sendKeys(name);
     }
 
     /*******************************************************************************************************************
-                                   Egyszerű metódus, ami feltölti a bio inputot.
+                                       Metódus, ami feltölti a bio inputot.
      ******************************************************************************************************************/
     public void fillBio(String bio) {
         driver.findElement(this.bio).sendKeys(bio);
     }
 
     /*******************************************************************************************************************
-                                   Egyszerű metódus, ami feltölti a phone inputot.
+                                       Metódus, ami feltölti a phone inputot.
      ******************************************************************************************************************/
     public void fillPhone(String phone) {
         driver.findElement(this.phone).sendKeys(phone);
     }
 
     /*******************************************************************************************************************
-                                Egyszerű metódus, ami rákattint a save profile gombra.
+                                     Metódus, ami rákattint a save profile gombra.
      ******************************************************************************************************************/
     public void clickOnSave() {
         driver.findElement(save).click();
     }
 
     /*******************************************************************************************************************
-                               Egyszerű metódus, ami rákattint a delete account gombra.
+                                    Metódus, ami rákattint a delete account gombra.
      ******************************************************************************************************************/
     public void clickOnDelete() {
         driver.findElement(delete).click();
     }
 
     /*******************************************************************************************************************
-                             Egyszerű metódus, ami rákattint a delete account surely gombra.
+                                 Metódus, ami rákattint a delete account surely gombra.
      ******************************************************************************************************************/
     public void clickOnDeleteSurely() {
         driver.findElement(deleteSurely).click();
     }
 
     /*******************************************************************************************************************
-                             Metódus, ami feltölti az összes inputot és a mentésre is rákattint.
+                            Metódus, ami feltölti az összes inputot és a mentésre is rákattint.
      ******************************************************************************************************************/
     public void fillAll(String name, String bio, String phone) {
         fillName(name);

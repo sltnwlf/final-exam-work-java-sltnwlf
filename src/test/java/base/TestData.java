@@ -1,13 +1,13 @@
 package base;
 
-/*******************************************************************************************************************
-    Külön osztály az összes, a tesztekben felhasznált tesztadat tárolására, a static kulcsszó segítségével pedig
-  meghívhatóak az osztály, változókba mentett tesztadatai az egyes tesztosztályokban a class-ra való hivatkozással.
- ******************************************************************************************************************/
+/***********************************************************************************************************************
+      Külön osztály az összes, a tesztekben felhasznált tesztadat tárolására, a static kulcsszó segítségével pedig
+    meghívhatóak az osztály, változókba mentett tesztadatai az egyes tesztosztályokban a class-ra való hivatkozással.
+ **********************************************************************************************************************/
 public abstract class TestData {
 
     /*******************************************************************************************************************
-                                 Tesztadatok a regisztrációhoz és a bejelentkezéshez.
+                                     Tesztadatok regisztrációhoz és bejelentkezéshez.
      ******************************************************************************************************************/
     public final static String regLogUsername = "Felhasznalonev";
     public final static String regLogUsernameFromFile = "Felhasznalonev03";
@@ -16,13 +16,13 @@ public abstract class TestData {
     public final static String regLogDescription = "Egy rovid leiras.";
 
     /*******************************************************************************************************************
-                                       Tesztadatok a contact page teszteléséhez.
+                                        Tesztadatok a contact page teszteléséhez.
      ******************************************************************************************************************/
     public final static String contactName = "Nev";
     public final static String contactMessage = "Egy rovid uzenet.";
 
     /*******************************************************************************************************************
-                                        Tesztadatok profile page teszteléséhez.
+                                         Tesztadatok profile page teszteléséhez.
      ******************************************************************************************************************/
     public final static String profileName1 = "Nev1";
     public final static String profileName2 = "Nev2";
@@ -32,7 +32,7 @@ public abstract class TestData {
     public final static String profilePhone2 = "+36301234567";
 
     /*******************************************************************************************************************
-                                       Általánosabban felhasználható tesztadatok.
+                                        Általánosabban felhasználható tesztadatok.
      ******************************************************************************************************************/
     public final static String email = "teszt@email.hu";
     public final static String emailNothingAfterAt = "teszt@";
