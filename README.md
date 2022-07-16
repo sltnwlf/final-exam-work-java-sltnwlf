@@ -21,9 +21,10 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 - Teszteszköz: ```Selenium```
 - Tesztkeretrendszer: ```JUnit 5```
 - Tesztjelentés: ```Allure Framework```
-- Böngésző: ```Google Chrome```
+- Verziókezelő: ```Git```
 - Tesztmenedzser: ```Google docs```
 - Prezentáció: ```Google slides```
+- Böngésző: ```Google Chrome```
 
 
 ## Lefedett követelmények:
@@ -43,7 +44,7 @@ A mentorom, Lenner Tamás által megírt Portio weboldal felületének tesztelé
 
 ## Tesztek futtatása:
 
-- Klónozzuk le a repót: [GitHub repó](https://github.com/sltnwlf/final-exam-work-java-sltnwlf)
+- Klónozzuk le a repót.
 - Egy választott integrált fejlesztői környezetben (ajánlott: IntelliJ IDEA 2022.1) futtathatjuk a teszeseteket.
 - Miután megnyitottuk a projektet az src/test/java/requirements mappastruktúrán végighaladva találjuk meg a java teszt fájlokat.
 - Kattintsunk duplán az általunk kiválasztott java teszt fájlra.
